@@ -1,0 +1,50 @@
+.swipeButtons{
+    display: flex;
+    bottom: 2vh;
+    position:fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+.swipeButtons .MuiIconButton-root{
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.25) !important;
+}
+.swipeButtons_replay{
+    padding: 3vw !important;
+    color: #f5b748 !important;
+}
+.swipeButtons_replay:hover{
+    color: #f79a0e
+}
+.swipeButtons_close{
+    padding: 3vw !important;
+    color: #ec5e6f !important;
+}
+.swipeButtons_close:hover{
+    padding: 3vw !important;
+    color: #df182f !important;
+}
+.swipeButtons_starRate{
+    padding: 3vw !important;
+    color: #62b4f9 !important;
+}
+.swipeButtons_starRate:hover{
+    padding: 3vw !important;
+    color: #1e8be4 !important;
+}
+.swipeButtons_favorite{
+    padding: 3vw !important;
+    color: #76e2b3 !important;
+}
+.swipeButtons_favorite:hover{
+    padding: 3vw !important;
+    color: #0eda81 !important;
+}
+.swipeButtons_flashOn{
+    padding: 3vw !important;
+    color: #915dd1 !important;
+}
+.swipeButtons_flashOn:hover{
+    padding: 3vw !important;
+    color: #6c1bce !important;
+}
